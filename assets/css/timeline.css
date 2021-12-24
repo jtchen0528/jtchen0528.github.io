@@ -126,6 +126,7 @@
 
 .timeline-header {
     display: flex;
+    align-items: center;
 }
 
 
@@ -136,6 +137,10 @@
 }
 
 .timeline-header-text h3 {
+    margin: 0px 0px 3px;
+}
+
+.timeline-header-text h4 {
     margin: 0px 0px 3px;
 }
 
