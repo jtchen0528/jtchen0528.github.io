@@ -3609,5 +3609,30 @@ body.is-preload #header.alt .logo {
         margin-left: auto;
         margin-right: auto;
     }
+
+    #publications small {
+        font-size: 0.8em;
+    }
 }
 
+#publications li {
+    text-align: left;
+}
+
+#publications small {
+    font-size: 0.9em;
+}
+
+.project-card {
+    border-radius: 4px;
+    background: #f5f5f5;
+    box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+    padding: 7px;
+    text-align: left;
+    max-width: 400px;
+    margin: auto;
+}
+
+.project-card p{
+    margin: 0px 0px 5px;
+}
