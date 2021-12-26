@@ -144,6 +144,10 @@
     margin: 0px 0px 3px;
 }
 
+.timeline-header-text h6 {
+    margin: 0px 0px 3px;
+}
+
 @media screen and (max-width: 2000px) {
     .timeline::before {
         left: 20px;
