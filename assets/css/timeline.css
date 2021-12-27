@@ -222,11 +222,17 @@
     .timeline .timeline-content ul li {
         font-size: 1.2rem;
     }
+    .timeline .timeline-content a {
+        font-size: 1em;
+    }
 }
 
 @media screen and (max-width: 1280px) {
     .timeline .timeline-content ul li {
         font-size: 1rem;
+    }
+    .timeline .timeline-content a {
+        font-size: 0.95em;
     }
 }
 
@@ -234,16 +240,25 @@
     .timeline .timeline-content ul li {
         font-size: 0.9rem;
     }
+    .timeline .timeline-content a {
+        font-size: 0.85em;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .timeline .timeline-content ul li {
         font-size: 0.85rem;
     }
+    .timeline .timeline-content a {
+        font-size: 0.7em;
+    }
 }
 
 @media screen and (max-width: 360px) {
     .timeline .timeline-content ul li {
         font-size: 0.75rem;
+    }
+    .timeline .timeline-content a {
+        font-size: 0.7em;
     }
 }
