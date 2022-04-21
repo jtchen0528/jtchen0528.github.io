@@ -3636,3 +3636,49 @@ body.is-preload #header.alt .logo {
 .project-card p{
     margin: 0px 0px 5px;
 }
+
+.logos {
+    padding: 0px;
+    vertical-align: middle;
+}
+
+.logos_text {
+    padding: 0px;
+    vertical-align: top;
+}
+
+@media screen and (max-width: 1280px) {
+    .logos img {
+        width: 35%;
+    }
+    .logos_text p {
+
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .logos img {
+        width: 60%;
+    }
+    .logos_text p {
+        font-size: 0.8rem;        
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .logos img {
+        width: 80%;
+    }
+    .logos_text p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logos img {
+        width: 100%;
+    }
+    .logos_text p {
+        display: none;
+    }
+}
