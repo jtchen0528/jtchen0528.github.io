@@ -3646,7 +3646,9 @@ body.is-preload #header.alt .logo {
     padding: 0px;
     vertical-align: top;
 }
-
+.logos img {
+    width: 35%;
+}
 @media screen and (max-width: 1280px) {
     .logos img {
         width: 35%;
