@@ -148,7 +148,7 @@
     margin: 0px 0px 3px;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 20000px) {
     .timeline::before {
         left: 20px;
     }
